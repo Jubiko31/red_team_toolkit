@@ -1,5 +1,9 @@
 # Red Team Toolkit
 
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/53910160/231494435-8493afbd-2e68-45fe-b72c-c3ccab2d5f62.jpg" width="350px"/>
+</p>
+
 ## Project Description
 The "RED TEAM TOOLKIT" project is collection of tools and scripts for small or advanced attacks, exploits, defensive systems, etc. I started this project just for hobby and educational purposes. I upload here all tools or scripts I wrote for hacking, red/blue team. With detailed descriptions and examples.
 
@@ -17,7 +21,7 @@ List of tools so far:
 
 | Tool | Description |
 | --- | --- |
-| Reverse Backdoor | Get reverse shell connection from target device |
+| **Reverse Backdoor** | Get reverse shell connection from target device |
 
 
 ## Project status
