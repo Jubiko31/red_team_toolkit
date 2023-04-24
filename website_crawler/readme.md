@@ -13,9 +13,14 @@ Python v3
 
 ## Run
 
-Domain crawler:
+<i>note: speed will be depanding on your internet speed and target website.</i>
+
+Subdomain crawler:
 ```sh
-# Full search (default wordlist):
+# Advanced search (default wordlist: ~65K words):
+$ python dsearch.py -u <target_url> --full
+
+# Normal search (default wordlist: ~10K words)
 $ python dsearch.py -u <target_url>
 
 # With custom wordlist:
