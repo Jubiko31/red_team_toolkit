@@ -23,10 +23,12 @@ List of tools so far:
 | --- | --- |
 | **Reverse Backdoor** | Get reverse shell connection from target device |
 | **Subdomain Crawler** | Find subdomains of target website |
+| **Path Crawler** | Find hidden paths of target website |
+| **Spider** | Search paths/link inside target website |
 
 
 ## Project status
-I will add more tools from time to time
+<i>in development</li> | I add more tools from time to time
 
 ## Copyright 
 Copyright (c) Juba Matsaberidze | 2023
