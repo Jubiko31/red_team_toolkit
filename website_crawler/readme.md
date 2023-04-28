@@ -1,11 +1,13 @@
-# Website Crawlers
+# Website Crawlers: Domain & Path Crawler | Spider
 
 ## Description
 Crawl website domains and paths with custom wordlist or default one (full search).
+Also added Spider, which searches all subpaths/links in the website itself.
 
 <ul>
     <li>Domain crawler - <b>dsearch.py</b></li>
     <li>Path crawler - <b>rsearch.py</b></li>
+    <li>Spider v1.0 - <b>sspider.py</b></li>
 </ul>
 
 ### Requirements
