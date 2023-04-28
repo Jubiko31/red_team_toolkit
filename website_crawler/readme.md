@@ -46,3 +46,9 @@ $ python rsearch.py -u <target_url> -w <wordlist.txt>
 ![rsearch1](https://user-images.githubusercontent.com/53910160/235130103-44160ca2-d7be-4eda-b04c-3314f3f2adbd.png)
 
 
+Spider v1.0:
+```sh
+$ python sspider.py -u <target_url>
+```
+
+## Example
