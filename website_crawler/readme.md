@@ -31,3 +31,14 @@ $ python dsearch.py -u <target_url> -w <wordlist.txt>
 ![dsearch](https://user-images.githubusercontent.com/53910160/234993431-08189f0c-e199-4879-9f19-e718568adf42.png)
 ![dsearch1](https://user-images.githubusercontent.com/53910160/234994487-952c6542-014e-4c1b-9d9a-db82a976bd28.png)
 
+
+Path crawler:
+```sh
+# Default search:
+$ python rsearch.py -u <target_url>
+
+# With custom wordlist:
+$ python rsearch.py -u <target_url> -w <wordlist.txt>
+```
+
+## Examples
