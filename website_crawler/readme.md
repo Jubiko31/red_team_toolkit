@@ -41,4 +41,8 @@ $ python rsearch.py -u <target_url>
 $ python rsearch.py -u <target_url> -w <wordlist.txt>
 ```
 
-## Examples
+## Example
+![rsearch](https://user-images.githubusercontent.com/53910160/235130067-ccb7df6d-226f-4904-8ec3-51b0e69622d4.png)
+![rsearch1](https://user-images.githubusercontent.com/53910160/235130103-44160ca2-d7be-4eda-b04c-3314f3f2adbd.png)
+
+
