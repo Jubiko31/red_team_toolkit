@@ -19,12 +19,14 @@ Note: detailed descriptions and usage are inside project files itself
 
 List of tools so far:
 
-| Tool | Description |
-| --- | --- |
-| **Reverse Backdoor** | Get reverse shell connection from target device |
-| **Subdomain Crawler** | Find subdomains of target website |
-| **Path Crawler** | Find hidden paths of target website |
-| **Spider** | Search paths/link inside target website |
+| Tool | Description | Type |
+| --- | --- | --- |
+| **Reverse Backdoor** | Get reverse shell connection from target device | ☣️ Malware |
+| **ARP Spoofer** | Execute ARP poisoning over a network | MiTM Attack |
+| **ARP Spoof Detector** | Monitor and detect ARP spoofing on a network | Network Analyzer |
+| **Subdomain Crawler** | Find subdomains of target website | Website Crawler |
+| **Path Crawler** | Find hidden paths of target website | Website Crawler |
+| **Spider** | Search paths/link inside target website | Website Crawler |
 
 
 ## Project status
