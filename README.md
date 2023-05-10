@@ -11,7 +11,7 @@ The "RED TEAM TOOLKIT" project is collection of tools and scripts for small or a
 For educational purposes only. These kinds of action are against law if you do not have permission. All attacks that will be displayed are done on devices I own.
 
 ## Authors and acknowledgment
-Juba Matsaberidze
+<b>Juba Matsaberidze</b>  |  Cybersecurity Specialist, Backend Engineer
 
 ## Toolkit
 
@@ -30,7 +30,7 @@ List of tools so far:
 
 
 ## Project status
-<i>in development</li> | I add more tools from time to time
+<i>in development</i> | I add more tools from time to time
 
 ## Copyright 
 Copyright (c) Juba Matsaberidze | 2023
