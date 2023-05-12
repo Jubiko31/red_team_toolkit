@@ -14,7 +14,7 @@ Note: Oprimized for Windows.
 
 ### Run
 ```sh
-$ python wifi_harvest.py -o [OUTPUT_FILE]
+$ python wifi_harvest.py -o <OUTPUT_FILE>
 ```
 
 ### Example:
