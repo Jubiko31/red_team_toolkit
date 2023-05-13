@@ -27,6 +27,7 @@ List of tools so far:
 | **Subdomain Crawler** | Find subdomains of target website | Website Crawler |
 | **Path Crawler** | Find hidden paths of target website | Website Crawler |
 | **Spider** | Search paths/link inside target website | Website Crawler |
+| **WiFi Harvester** | Gather connected WiFi SSIDs/Passwords on target machine | Information Gathering |
 
 
 ## Project status
