@@ -18,3 +18,4 @@ $ python wifi_harvest.py -o <OUTPUT_FILE>
 ```
 
 ### Example:
+![image](https://github.com/Jubiko31/red_team_toolkit/assets/53910160/9fa7e5d0-dc78-4688-90bd-46e6b5fcdad1)
