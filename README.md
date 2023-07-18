@@ -38,3 +38,7 @@ Copyright (c) Juba Matsaberidze | 2023
 
 All rights reserved. This repository and its contents are protected by copyright law. Unauthorized copying, modification is prohibited.
 You are, however, granted an access and use the contents of this repository for educational, research, and non-commercial purposes.
+
+<hr>
+
+Happy Hacking 👾
