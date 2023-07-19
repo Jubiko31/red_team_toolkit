@@ -41,4 +41,6 @@ You are, however, granted an access and use the contents of this repository for 
 
 <hr>
 
-Happy Hacking 👾
+<p align="center">
+  Happy Hacking 👾
+</p>
